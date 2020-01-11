@@ -16,7 +16,7 @@ You need to `cd` to this folder and run:
 Change the 'path/to/your/image' to where your images are (that you wish to convert into frequency domain).  
 
 ## Results
-Some important notes: this implementation will convert your RGB images to grayscale images, while the result of DFT and FFT is correct, shifting the DC frequency to the center (0, 0) still give incorrect results sometimes - compared to NumPy's built-in 2D FFT shift `np.fft.fftshift()`. You can see it on 'input2_DFT.png' and 'input2_FFT_NumPy.png' in 'images/' folder of this repository.  
+Some important notes: this implementation will convert your RGB images to grayscale images, while the result of DFT and FFT is correct, shifting the DC frequency to the center (0, 0) still give incorrect results sometimes - compared to NumPy's built-in 2D FFT shift `np.fft.fftshift()`. You can see it on 'input1_DFT.png' and 'input1_FFT_NumPy.png' in 'images/' folder of this repository.  
 ![](./for_publishing/result.png)  
 ![](./for_publishing/result2.png)  
   
